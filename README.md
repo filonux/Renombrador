@@ -14,6 +14,17 @@ Es un único script de Bash, sin más dependencia obligatoria que un selector gr
 
 **Índice:** [Compatibilidad](#compatibilidad) · [Instalación](#instalación) · [Guía rápida](#guía-rápida-renombrar-una-carpeta-de-fotos) · [Métodos disponibles](#métodos-de-renombrado-disponibles) · [Deshacer](#deshacer-y-por-qué-es-seguro) · [Línea de comandos](#modo-línea-de-comandos) · [Scriptya](#instalar-y-lanzar-renombrador-con-scriptya) · [Idioma y roadmap](#idioma-y-roadmap) · [Contribuir](#contribuir)
 
+
+<img width="648" height="437" alt="1renombrador-menu" src="https://github.com/user-attachments/assets/19215211-322f-4595-b9cd-ec4048cd7d50" />
+<img width="644" height="431" alt="2renombrador-plantillas-personalizadas" src="https://github.com/user-attachments/assets/de8f4fb6-1814-4e70-ad20-109b166f97fb" />
+<img width="280" height="429" alt="3renombrador-nemo" src="https://github.com/user-attachments/assets/6a3a5101-48c3-4cc5-8252-6891c627cfdd" />
+<img width="644" height="435" alt="4renombrador-metodo-renombrado" src="https://github.com/user-attachments/assets/7cc0c96a-7993-4c82-994e-1bfa2b504555" />
+<img width="896" height="585" alt="5renombrador-prueba" src="https://github.com/user-attachments/assets/72e7f4c2-4ea5-4922-a78a-ceff0f05fca8" />
+<img width="647" height="494" alt="6renombrador-prueba2" src="https://github.com/user-attachments/assets/6ce2fac2-f14d-4e9b-8299-49394e276a02" />
+<img width="649" height="493" alt="7renombrador-prueba-vistaprevia" src="https://github.com/user-attachments/assets/e84dc4de-fd8d-43ce-b7c6-714849381aa2" />
+<img width="1223" height="469" alt="8renombrador-prueba-final" src="https://github.com/user-attachments/assets/7e2b0894-2817-48be-8dfb-0fd6a7389dec" />
+
+
 ## Compatibilidad
 
 Desarrollado y probado en **Linux Mint 22.3 Cinnamon**. El motor de renombrado en sí (Bash + coreutils) no depende de Cinnamon para nada: solo hace falta `zenity` o `kdialog` para los selectores gráficos, así que funciona igual en cualquier distro con Bash 4 o superior. Entre las más conocidas:
