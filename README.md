@@ -1,4 +1,4 @@
-<img src="assets/icon.png" width="256" height="256">
+<img src="assets/icon.png" width="180" height="180">
 
 # Renombrador
 
