@@ -1,0 +1,49 @@
+name: Quality
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests-and-shellcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SHELLCHECK_VERSION: 0.11.0
+      SHELLCHECK_SHA256: 8c3be12b05d5c177a04c29e3c78ce89ac86f1595681cab149b65b97c4e227198
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pinned ShellCheck
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive="shellcheck-v${SHELLCHECK_VERSION}.linux.x86_64.tar.xz"
+          url="https://github.com/koalaman/shellcheck/releases/download/v${SHELLCHECK_VERSION}/${archive}"
+          curl --fail --location --retry 4 --retry-delay 2 --output "$RUNNER_TEMP/$archive" "$url"
+          printf '%s  %s\n' "$SHELLCHECK_SHA256" "$RUNNER_TEMP/$archive" | sha256sum --check --status
+          tar -xJf "$RUNNER_TEMP/$archive" -C "$RUNNER_TEMP"
+          install -m 0755 "$RUNNER_TEMP/shellcheck-v${SHELLCHECK_VERSION}/shellcheck" "$RUNNER_TEMP/shellcheck"
+          echo "SHELLCHECK_BIN=$RUNNER_TEMP/shellcheck" >> "$GITHUB_ENV"
+          "$RUNNER_TEMP/shellcheck" --version
+
+      - name: Run static analysis
+        run: ./tests/lint.sh
+
+      - name: Check Bash syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          bash -n script/renombrador.sh
+          bash -n tests/run.sh
+          bash -n tests/lint.sh
+
+      - name: Run functional tests
+        run: ./tests/run.sh
+
+      - name: Check committed diff whitespace
+        run: git show --check --oneline --no-renames HEAD
