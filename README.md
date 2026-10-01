@@ -12,6 +12,8 @@ Batch-renames files and folders from a terminal menu or via right-click in Nemo,
 
 **Demo:** [watch the video](assets/screenshots/demo-en.mp4) — renaming a folder with a ready-made template: preview, apply and undo.
 
+https://github.com/user-attachments/assets/f3b44441-7c95-4ca5-a9af-54aca7b05d3f
+
 > **Update 1.1.0**
 >
 > - **[Spanish and English](#language-and-roadmap).** Menus, help and messages in both languages; switch with `i` (saved), `--lang` or `RENOMBRADOR_LANG`. README in both too.
