@@ -1,20 +1,20 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ''
+about: Suggest an idea or an improvement for Renombrador
+title: '[Feature] '
 labels: ''
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**What problem do you want to solve?**
+What you are trying to do and what stops you or makes it awkward. For example: "I always have to [...] by hand after renaming".
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**What solution do you propose?**
+What should happen. An example of names before and after helps a lot and, if you have it clear, so does the flag or menu step you have in mind.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**What alternatives have you considered?**
+Other ways to solve it, with another Renombrador method or with other tools.
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+Any other detail or screenshot about the proposal. Replace the names of private files with example ones.
