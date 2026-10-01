@@ -43,7 +43,7 @@ jobs:
           bash -n tests/lint.sh
 
       - name: Run functional tests
-        run: bash ./tests/run.sh
+        rn: bash ./tests/run.sh
 
       - name: Check committed diff whitespace
         run: git show --check --oneline --no-renames HEAD
