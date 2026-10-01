@@ -34,12 +34,6 @@ It is a single Bash script. The runtime requires Bash 4.1+ and standard GNU/Linu
 <img src="assets/screenshots/2-Renombrator-custom-templates-en.png" width="805" alt="Renombrador custom templates menu with the 16 ready-made templates" />
 <img src="assets/screenshots/3-Renombrador-nemo-en.png" width="787" alt="Rename with Renombrador action in Nemo's right-click menu" />
 
-<img width="644" height="435" alt="Renombrador rename method" src="https://github.com/user-attachments/assets/7cc0c96a-7993-4c82-994e-1bfa2b504555" />
-<img width="896" height="585" alt="Renombrador test" src="https://github.com/user-attachments/assets/72e7f4c2-4ea5-4922-a78a-ceff0f05fca8" />
-<img width="647" height="494" alt="Renombrador second test" src="https://github.com/user-attachments/assets/6ce2fac2-f14d-4e9b-8299-49394e276a02" />
-<img width="649" height="493" alt="Renombrador preview test" src="https://github.com/user-attachments/assets/e84dc4de-fd8d-43ce-b7c6-714849381aa2" />
-<img width="1223" height="469" alt="Renombrador final test" src="https://github.com/user-attachments/assets/7e2b0894-2817-48be-8dfb-0fd6a7389dec" />
-
 ## Compatibility
 
 Developed and tested on **Linux Mint 22.3 Cinnamon**. The renaming engine itself does not depend on Cinnamon: it requires Bash 4.1 or newer (for `{fd}` redirections) plus GNU/Linux file utilities (including GNU `mv`, `find`, `stat`, `realpath`, `tar`, `sed` and `mktemp`, and `flock` from util-linux). `zenity` or `kdialog` is only needed for graphical selectors. Some well-known examples:
