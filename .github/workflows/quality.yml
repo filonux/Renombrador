@@ -32,7 +32,7 @@ jobs:
           "$RUNNER_TEMP/shellcheck" --version
 
       - name: Run static analysis
-        run: ./tests/lint.sh
+        run: bash ./tests/lint.sh
 
       - name: Check Bash syntax
         shell: bash
@@ -43,7 +43,7 @@ jobs:
           bash -n tests/lint.sh
 
       - name: Run functional tests
-        run: ./tests/run.sh
+        run: bash ./tests/run.sh
 
       - name: Check committed diff whitespace
         run: git show --check --oneline --no-renames HEAD
