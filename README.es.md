@@ -12,6 +12,8 @@ Renombra archivos y carpetas por lotes desde un menú en la terminal o con clic 
 
 **Demostración:** [ver el video](assets/screenshots/demo-es.mp4) — renombrar una carpeta con una plantilla lista para usar: vista previa, aplicar y deshacer.
 
+https://github.com/user-attachments/assets/89409261-b79a-45c9-bd15-eafa546f975a
+
 > **Actualización 1.1.0**
 >
 > - **[Español e inglés](#idioma-y-roadmap).** Menús, ayuda y mensajes en ambos idiomas; se cambia con `i` (queda guardado), `--lang` o `RENOMBRADOR_LANG`. El README también está en los dos.
