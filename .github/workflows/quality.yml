@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   tests-and-shellcheck:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     env:
       SHELLCHECK_VERSION: 0.11.0
