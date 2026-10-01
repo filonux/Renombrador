@@ -1,12 +1,12 @@
-# Código de conducta
+# Code of Conduct
 
-Este es un proyecto pequeño mantenido en tiempo libre. Para que sea un buen sitio donde participar, se espera lo siguiente de cualquier persona que comente, abra un issue o envíe un PR:
+This is a small project maintained in spare time. To keep it a good place to take part, the following is expected of anyone who comments, opens an issue or sends a PR:
 
-- **Sé respetuoso.** Está bien no estar de acuerdo con un enfoque o una decisión; no está bien faltar el respeto a quien la propuso.
-- **Sé concreto.** Ayuda mucho más un "esto falla así, en este entorno, con estos pasos" que una queja genérica.
-- **Ten paciencia.** El proyecto se mantiene por interés personal, no como trabajo a tiempo completo; las respuestas pueden tardar.
-- **No se tolera** el acoso, los comentarios discriminatorios, ni el lenguaje agresivo hacia otras personas del proyecto.
+- **Be respectful.** Disagreeing with an approach or a decision is fine; disrespecting the person who proposed it is not.
+- **Be specific.** "This fails like this, in this environment, with these steps" helps far more than a generic complaint.
+- **Be patient.** The project is maintained out of personal interest, not as a full-time job; replies may take a while.
+- **Not tolerated:** harassment, discriminatory comments, or aggressive language towards other people in the project.
 
-## Aplicación
+## Enforcement
 
-El mantenedor puede editar, cerrar o eliminar issues, comentarios y PRs que no respeten lo anterior, y bloquear a quien reincida. Si presencias o sufres algo que no encaja con este código de conducta, puedes escribir directamente al mantenedor a través de los canales de contacto del perfil de GitHub.
+The maintainer may edit, close or delete issues, comments and PRs that do not follow the above, and block repeat offenders. If you witness or experience something that does not fit this code of conduct, you can write directly to the maintainer through the contact channels on their GitHub profile.
