@@ -34,13 +34,6 @@ Es un único script de Bash. En ejecución necesita Bash 4.1+ y las utilidades h
 <img src="assets/screenshots/2-Renombrador-plantillas-personalizadas-es.png" width="804" alt="Menú de plantillas personalizadas de Renombrador con las 16 plantillas listas para usar" />
 <img src="assets/screenshots/3-Renombrador-nemo-es.png" width="786" alt="Acción Renombrar con Renombrador en el menú de clic derecho de Nemo" />
 
-<img width="644" height="435" alt="Método de renombrado de Renombrador" src="https://github.com/user-attachments/assets/7cc0c96a-7993-4c82-994e-1bfa2b504555" />
-<img width="896" height="585" alt="Prueba de Renombrador" src="https://github.com/user-attachments/assets/72e7f4c2-4ea5-4922-a78a-ceff0f05fca8" />
-<img width="647" height="494" alt="Segunda prueba de Renombrador" src="https://github.com/user-attachments/assets/6ce2fac2-f14d-4e9b-8299-49394e276a02" />
-<img width="649" height="493" alt="Vista previa de prueba de Renombrador" src="https://github.com/user-attachments/assets/e84dc4de-fd8d-43ce-b7c6-714849381aa2" />
-<img width="1223" height="469" alt="Prueba final de Renombrador" src="https://github.com/user-attachments/assets/7e2b0894-2817-48be-8dfb-0fd6a7389dec" />
-
-
 ## Compatibilidad
 
 Desarrollado y probado en **Linux Mint 22.3 Cinnamon**. El motor de renombrado en sí no depende de Cinnamon para nada: necesita Bash 4.1 o superior (por las redirecciones `{fd}`) y las utilidades de archivos de GNU/Linux habituales (entre ellas `mv`, `find`, `stat`, `realpath`, `tar`, `sed` y `mktemp` de GNU, y `flock` de util-linux). `zenity` o `kdialog` solo hacen falta para los selectores gráficos, así que funciona igual en cualquier distro con Bash 4.1 o superior. Entre las más conocidas:
